@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+   background-color: rgb(154, 154, 230);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.container{
+    background-color: aliceblue;
+    padding:2rem;
+    border-radius:5%;
+    height:75vh;
+    width: 45vh;
+    margin-top: 50px;
+}
+ 
+ .container h1{
+    padding: 12px 0;
+ }
+
+ #resCont div::first-letter{
+  text-transform: uppercase;
+ }
+ input{
+    padding: 3px 2px 3px 12px;
+   
+    border-radius: 15px solid black;
+    font-size: medium;
+ }
+ h2{
+   margin-top:20px;
+ }
+ 
+ .btn{
+    
+    color:black;
+    border-radius: 5px;
+    cursor: pointer;
+    padding:6px;
+    
+ }
+ .btn:hover{
+   background-color: rgba(0,0,255,0.5);
+ }
+
+ @media only screen and(max-width:600px){
+    
+
+    .container{
+        font-size: 12px;
+    }
+    nav{
+        flex-direction: column;
+    }
+ }
