@@ -8,4 +8,4 @@ Features
   
   TECHNOLOGIES USED: HTML, CSS, JavaScript
 
-  click here for the demo: https://github.com/vajiyashaik/email_validator.git
+  click here for the demo:  https://vajiyashaik.github.io/email_validator/
